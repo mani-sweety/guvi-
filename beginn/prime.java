@@ -1,3 +1,5 @@
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -8,24 +10,31 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n,a,i;
-		a=1;
+		int m,n,j,a;
 		Scanner sc=new Scanner(System.in);
+		m=sc.nextInt();
 		n=sc.nextInt();
-		for(i=1;i<n;i++){
-			if((n%i)==0){
-                        	a++;
 		
+		while(m<n){
+			a=0;
+			for(j=2;j<n;j++){
+				if(m>2){
+					if((m%j)==0)
+					{
+						a++;
+					}
+					if(a==0){
+						System.out.print(m+" ");
+					}
+					break;
+				
+					
+				}
+				
 			}
-			
-		}
-		if(a==2){
-			System.out.println("yes");
-			
-		}
-		else{
-			System.out.println("no");
+			++m;
 		}
 		
+	
 	}
 }
