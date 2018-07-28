@@ -21,9 +21,11 @@ class Ideone
 			else{
 				
 			System.out.print(i);
-			
-			}
+			if((n-m)>2)
+			{
 			System.out.print(" ");
+			}
+			}
 			
 		}
 		
