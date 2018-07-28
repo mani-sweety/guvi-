@@ -14,7 +14,9 @@ class Ideone
 		n=sc.nextInt();
 		for(i=(m+1);i<n;i++){
 			if((i%2)==0){
-				System.out.print(i+" ");
+				System.out.print(i);
+			if(i<n)
+				System.out.print(" ");
 			
 			}
 			
