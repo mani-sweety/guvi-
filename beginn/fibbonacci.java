@@ -21,7 +21,14 @@ class Ideone
 			
 		}
 		for(i=1;i<=n;i++){
-			System.out.print(a[i]+" ");
+				if(i==1){
+			System.out.print(a[i]);}
+			else{
+				System.out.print(" ");
+				System.out.print(a[i]);
+				
+			}
+		
 		}
 		
 	}
