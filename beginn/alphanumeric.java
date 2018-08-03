@@ -26,10 +26,10 @@ class Ideone
 		}
 		
 		if((a>=1)&&(b>=1)){
-			System.out.print("yes");
+			System.out.print("Yes");
 		}
 		else{
-			System.out.print("no");
+			System.out.print("No");
 		}
 		
 		
