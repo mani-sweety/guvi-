@@ -13,7 +13,7 @@ class Ideone
 		int n,rem=0;
 		Scanner c=new Scanner(System.in);
 		n=c.nextInt();
-		while(n>2){
+		while(n>1){
 			if(n%2==0){
 				rem=n/2;
 			
