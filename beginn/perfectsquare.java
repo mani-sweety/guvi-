@@ -16,7 +16,7 @@ class Ideone
 		n=sc.nextInt();
 		int res=m*n;
                         int temp=(res)/2;
-		for(int i=temp;i>0;i--){
+		for(int i=temp;i>=0;i--){
 		 sq=i*i;
 		 if(sq==res){
 		 	 	break;
