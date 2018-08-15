@@ -17,12 +17,13 @@ class Ideone
 
 		str=str.replaceFirst(Character.toString(str.charAt(0)), 
                  Character.toString(Character.toUpperCase(str.charAt(0))));
-                 for(int i=1;i<str.length()-1;i++)
+                 for(int i=1;i<str.length()-1;i++){
                  if(str.charAt(i)==' '){
                         str=str.replaceFirst(Character.toString(str.charAt(i+1)), 
                  Character.toString(Character.toUpperCase(str.charAt(i+1))));
 
-}
+                        }
+		 }
 
 		System.out.print(str);
 	}
