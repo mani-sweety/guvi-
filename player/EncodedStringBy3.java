@@ -16,10 +16,17 @@ class Ideone
 		str=sc.next();
 		for(int i=0;i<str.length();i++){
 			int a=(int)(str.charAt(i));
+			if(a>120){
+				a=a-26;
 			a=a+3;
 			c=(char)a;
-	
 				System.out.print(c);
-}
+			}
+			else{
+				a=a+3;
+				c=(char)a;
+				System.out.print(c);
+			}
+                     }
 	}
 }
