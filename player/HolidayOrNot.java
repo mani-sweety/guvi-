@@ -13,7 +13,6 @@ class Ideone
 		String s;
 		Scanner sc=new Scanner(System.in);
 		s=sc.next().toLowerCase();
-		System.out.print(s);
 		if(s.equals("sunday") || s.equals("saturday")) 
 			System.out.println("yes");
 		
